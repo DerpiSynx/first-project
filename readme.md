@@ -41,7 +41,24 @@
  Modified - после команды git add файл был еще раз изменен.
 
  Более сложная версия
- ```mermaid
 
+С помощью такого кода
+```
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
+```
+ ```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
  ``` 
- 
+Можно сделать такую схему. 
