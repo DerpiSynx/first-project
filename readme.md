@@ -44,14 +44,14 @@
 
 С помощью такого кода
 ```
-```mermaid
+`````mermaid
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "???"     --> tracked/comitted;
 
 %% стрелка без текста для примера: 
   A --> B;
-```
+`````
 ```
 Можно сделать такую схему. 
 
